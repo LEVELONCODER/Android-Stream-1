@@ -39,7 +39,7 @@ class BaseActivity : AppCompatActivity() {
         /*
         * It's long lambda
         * clickButton.setOnClickListener(View.OnClickListener {
-            // TODO: Some Code write here!
+            // Some Code write here!
         * })
         */
 
@@ -47,5 +47,9 @@ class BaseActivity : AppCompatActivity() {
         clickButton.setOnClickListener {
             setContentView(R.layout.change_layout)
         }
+
+        // TODO: Create new project
+        // TODO: Copy project for github
+        // TODO: Test App
     }
 }
